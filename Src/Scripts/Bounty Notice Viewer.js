@@ -23,7 +23,6 @@
                     var p=document.createElement('p');
                     p.innerHTML=xhr.responseText;
                     var msg = p.querySelector('.bounty p').innerHTML;
-                    console.log(msg);
                     x.setAttribute('title',msg);
                 }
             };
